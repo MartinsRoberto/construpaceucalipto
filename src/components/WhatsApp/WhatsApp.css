@@ -1,0 +1,35 @@
+#wpp {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 2rem;
+  bottom: 2rem;
+  font-size: 3rem;
+  background-color: rgb(77, 203, 91);
+  border-radius: 100%;
+  padding: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  #wpp {
+    font-size: 2rem;
+    padding: 14px;
+  }
+}
+
+.pulse {
+  animation: pulse 1s infinite ease-in-out alternate;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.8);
+  }
+
+  to {
+    transform: scale(1.2);
+  }
+}
