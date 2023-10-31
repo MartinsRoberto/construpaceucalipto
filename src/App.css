@@ -53,6 +53,7 @@ li {
   animation: bounce 1s ease infinite;
 }
 
+
 .bg-alva {
   background: linear-gradient(to right, rgba(79, 255, 245, 0.6), rgba(60, 115, 241, 0.6), rgba(233, 37, 216, 0.6), rgba(252, 150, 70, 0.6));
 }
