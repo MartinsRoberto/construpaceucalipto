@@ -16,9 +16,9 @@ const Area1Contact = () => {
               <ul>
                 <li className="mb-3 fs-4 fw-semibold text-light-emphasis">redes sociais</li>
                 <li className="mb-2 ">
-                  <a href="https://www.instagram.com/construpaceucalipto/" className='text-green fw-semibold nav-link fs-5'><AiOutlineInstagram />Construpaceucalipto</a>
+                  <a href="https://www.instagram.com/construpaceucalipto/" className='text-green fw-semibold nav-link fs-5' target='_blank'><AiOutlineInstagram />Construpaceucalipto</a>
                 </li>
-                <li className="mb-2"><a href="https://www.facebook.com/construpaceucalipto.com.br/" className='text-green fw-semibold nav-link fs-5'><AiOutlineFacebook />Formaodeouro </a></li>
+                <li className="mb-2"><a href="https://www.facebook.com/construpaceucalipto.com.br/" className='text-green fw-semibold nav-link fs-5' target='_blank'><AiOutlineFacebook />ConstrupacEucalipto </a></li>
               </ul>
               <ul>
                 <li className="mb-3 fs-4 fw-semibold text-light-emphasis">contato</li>
@@ -26,12 +26,12 @@ const Area1Contact = () => {
               </ul>
               <ul>
                 <li className="mb-3 fs-4 fw-semibold text-light-emphasis">telefones</li>
-                <li className="mb-2  text-green fw-semibold fs-5"><AiOutlinePhone /> (11)4786-2493</li>
-                <li className="mb-2  text-green fw-semibold fs-5"><AiOutlineWhatsApp /> (11)91105-2709</li>
+                <li className="mb-2  text-green fw-semibold fs-5"><a className='text-green text-decoration-none ' href="tel:+1147862493"><AiOutlinePhone /> (11)4786-2493</a></li>
+                <li className="mb-2  text-green fw-semibold fs-5"><a className='text-green text-decoration-none ' href="tel:+11911052709"><AiOutlineWhatsApp/> (11)91105-2709</a></li>
               </ul>
               <ul>
                 <li className="mb-3 fs-4 fw-semibold text-light-emphasis">nosso endereço</li>
-                <li className="mb-2  text-green fw-semibold fs-5"><FiMapPin /> Av. Felicio Baruti, 16 Cidade Intercap, Taboao da Serra - SP, 06757-000, Brasil</li>
+                <li className="mb-2  text-green fw-semibold fs-5"><a className='text-green text-decoration-none 'href="https://www.google.com.br/maps/place/Construpac+Eucalipto+Tratado/@-23.6101019,-46.775809,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce54440cadc435:0x9cdfb44a6347ae1b!8m2!3d-23.6101019!4d-46.7732287!16s%2Fg%2F11sdbfy9_v?entry=ttu"><FiMapPin /> Av. Felicio Baruti, 16 Cidade Intercap, Taboao da Serra - SP, 06757-000, Brasil</a></li>
               </ul>
             </Row>
           </Col>

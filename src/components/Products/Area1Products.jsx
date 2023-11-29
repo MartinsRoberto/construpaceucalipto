@@ -37,11 +37,11 @@ const Area1Products = () => {
         {products.map((product, index) => (
           <Row key={index} className={index % 2 === 0 ? 'flex-row-reverse mb-md-5 ' : 'mb-md-5'}>
             <Col lg={4}>
-              <img src={product.image} alt={product.name} className="mb-3 mb-lg-0 img-fluid rounded" />
+              <img src={product.image} alt={product.name} className="mb-4 mb-lg-0 img-fluid rounded " />
             </Col>
-            <Col lg={8} className='mb-5 mb-lg-0 d-flex justify-content-center flex-column align-items-start'>
-              <h3>{product.name}</h3>
-              <p>{product.description}</p>
+            <Col lg={8} className='mb-5 mb-lg-0 d-flex justify-content-center flex-column lh-lg text-black fs-5 text-center'>
+              <h3 className=''>{product.name}</h3>
+              <p className='mb-5'>{product.description}</p>
             </Col>
           </Row>
         ))}

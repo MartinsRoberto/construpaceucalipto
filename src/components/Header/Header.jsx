@@ -45,7 +45,7 @@ const Header = () => {
                 onClick={() => isSmallScreen && firstNavLinkRef.current.click()}
                 key={index}
                 to={link.url}
-                className="ms-0 nav-link text-green text-uppercase fw-bold"
+                className="ms-0 nav-link text-green text-uppercase fw-medium"
               >
                 {link.name}
               </NavLink>
