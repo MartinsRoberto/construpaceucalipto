@@ -18,7 +18,6 @@ const Carroussel = () => {
 
   useEffect(() => {
     let w = window.innerWidth
-    console.log(w)
     if (w >= 576) {
       setFirstSlide(img01sm)
       setSecondSlide(img02sm)
@@ -28,7 +27,6 @@ const Carroussel = () => {
       setSecondSlide(img02md)
     }
     if (w >= 992) {
-      console.log("ELSE")
       setFirstSlide(img01lg)
       setSecondSlide(img02lg)
     }

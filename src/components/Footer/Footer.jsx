@@ -41,14 +41,13 @@ const Footer = () => {
           </Row>
         </Container>
       </div>
-      <div className="bg-alva py-3">
+      <div className="bg-black text-white py-3">
         <Container className="container text-center">
-          <p>
-            © Copyright a CONSTRUPAC COMERCIO DE EUCALIPTO E SERVICOS LTDA. Todos Direitos Reservados
-            Desenvolvido por ALVAMIND SOLUTIONS
+          <p className='m-0'>
+            ©Copyright CONSTRUPAC COMERCIO DE EUCALIPTO E SERVICOS LTDA. Todos Direitos Reservados.
           </p>
-          <p>
-            Desenvolvido por <span className="uppercase fw-bold bouncing-text">ALVAMIND SOLUTIONS</span>
+          <p className='m-0'>
+            Desenvolvido por <a className="uppercase fw-bold bouncing-text bg-alva " target='blank' href="https://alvamind.com.br/">ALVAMIND WEBITES & MARKETING DIGITAL</a>
           </p>
         </Container>
       </div>

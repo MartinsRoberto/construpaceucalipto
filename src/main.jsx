@@ -9,6 +9,10 @@ import Products from './pages/Products.jsx';
 import Gallery from './pages/Gallery.jsx';
 import Tables from './pages/Tables.jsx';
 import Contact from './pages/Contact.jsx';
+import About from './pages/About.jsx';
+import Blog from './pages/Blog.jsx';
+import Area1Blog from './components/Blog/Area1Blog.jsx';
+import AreaPostBlog from './components/Blog/AreaPostBlog.jsx';
 
 const router = createBrowserRouter([
   {
@@ -34,6 +38,18 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />
+      },
+      {
+        path: "/about",
+        element: <About />
+      }      ,
+      {
+        path: "/blog/:id",
+        element: <Blog />
+      },
+      {
+        path: "/blog",
+        element: <Blog />
       }
     ],
   },

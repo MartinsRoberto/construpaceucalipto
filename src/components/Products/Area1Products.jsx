@@ -35,11 +35,11 @@ const Area1Products = () => {
     <section className="py-5">
       <Container>
         {products.map((product, index) => (
-          <Row key={index} className={index % 2 === 0 ? 'flex-row-reverse mb-md-5' : 'mb-md-5'}>
-            <Col md={5} lg={4}>
-              <img src={product.image} alt={product.name} className="img-fluid" />
+          <Row key={index} className={index % 2 === 0 ? 'flex-row-reverse mb-md-5 ' : 'mb-md-5'}>
+            <Col lg={4}>
+              <img src={product.image} alt={product.name} className="mb-3 mb-lg-0 img-fluid rounded" />
             </Col>
-            <Col md={7} lg={8}>
+            <Col lg={8} className='mb-5 mb-lg-0 d-flex justify-content-center flex-column align-items-start'>
               <h3>{product.name}</h3>
               <p>{product.description}</p>
             </Col>

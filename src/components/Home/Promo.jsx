@@ -9,7 +9,6 @@ const Promo = () => {
 
   useEffect(() => {
     let w = window.innerWidth
-    console.log(w)
     if (w >= 576) {
       setFirstSlide(img01sm)
     }
@@ -17,7 +16,6 @@ const Promo = () => {
       setFirstSlide(img01md)
     }
     if (w >= 992) {
-      console.log("ELSE")
       setFirstSlide(img01lg)
     }
   }, [])

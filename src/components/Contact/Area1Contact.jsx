@@ -10,9 +10,9 @@ const Area1Contact = () => {
     <section className='py-5'>
       <Container>
         <Row>
-          <Col md={6} className="text-center text-md-start mb-5 mb-mb-0">
+          <Col md={6} className="text-center text-md-start d-flex flex-column align-items-center  justify-content-center ">
             <h3 className="mb-3 fs-3">Nossos Contatos</h3>
-            <Row className="text-uppercase ">
+            <Row className="text-uppercase">
               <ul>
                 <li className="mb-3 fs-4 fw-semibold text-light-emphasis">redes sociais</li>
                 <li className="mb-2 ">

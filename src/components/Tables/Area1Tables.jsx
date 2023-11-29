@@ -2,6 +2,10 @@ import Container from "react-bootstrap/esm/Container"
 import Table from 'react-bootstrap/Table'
 
 const dataTable = [
+  // {
+  //   title: "",
+  //   values: ['C', 'O', 'M', 'P', 'R', 'I', 'M', 'E', 'N', 'T', 'O']
+  // },
   {
     title: "04 a 06",
     values: ['2,20', '2,50', '3,00', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx', 'xxx']
@@ -108,7 +112,7 @@ const Area1Tables = () => {
             {tableData}
           </tbody>
         </Table>
-        <small className="text-danger fw-semibold">Obs:Madeiras com diâmetro acima de 20 cm sob encomenda</small>
+        <small className="text-danger fw-semibold">Obs: Madeiras com diâmetro acima de 20 cm sob encomenda</small>
       </Container>
     </section>
   )
