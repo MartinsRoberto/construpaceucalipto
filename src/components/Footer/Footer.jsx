@@ -9,31 +9,32 @@ const Footer = () => {
     <footer className="" id='footer'>
       <div className="bg-light py-5">
         <Container>
-          <Row>
+          <Row className='text-center text-md-left'>
             <Col sm={6} xl={3} className="mb-5 mb-xl-0">
-              <img src="/images/logo.png" alt="" className="img-fluid" />
+              <img src="/images/logo.png" alt=""className="img-fluid d-block d-sm-none" style={{ maxWidth: '50%', margin: '0 auto' }} />
+              <img src="/images/logo.png" alt=""className="img-fluid d-none d-sm-block" />
             </Col>
             <Col sm={6} xl={3} className="mb-5 mb-xl-0">
               <h4>Contato</h4>
               <ListGroup>
-                <li className="mb-3">Telefone: +55 11 4786-2493</li>
-                <li className="mb-3">Email: vendas@construpaceucalipto.com.br</li>
+                <li className="mb-2">Telefone: +55 11 4786-2493</li>
+                <li className="mb-2">Email: vendas@construpaceucalipto.com.br</li>
               </ListGroup>
             </Col>
             <Col sm={6} xl={3} className="mb-5 mb-xl-0">
               <h4>Onde estamos</h4>
               <ListGroup>
-                <li className="mb-3">Av. Felicio Barutti 16, Taboão da Serra, SP.</li>
-                <li className="mb-3">(Régis Bittencourt na altura do Shopping Taboão). </li>
+                <li className="mb-2">Av. Felicio Barutti 16, Taboão da Serra, SP.</li>
+                <li className="mb-2">(Régis Bittencourt na altura do Shopping Taboão). </li>
               </ListGroup>
             </Col>
             <Col sm={6} xl={3} className="mb-5 mb-xl-0">
               <h4>Siga-nos</h4>
               <ListGroup className="text-uppercase">
-                <li className="mb-3">
+                <li className="mb-2">
                   <a href="https://www.instagram.com/construpaceucalipto/" className='text-green fw-semibold nav-link'><AiOutlineInstagram />Construpaceucalipto</a>
                 </li>
-                <li className="mb-3">
+                <li className="mb-2">
                   <a href="https://www.instagram.com/formaodeouro/" className='text-green fw-semibold nav-link'><AiOutlineInstagram />Formaodeouro</a>
                 </li>
               </ListGroup>

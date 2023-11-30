@@ -36,6 +36,7 @@ const posts = [
 
     ]
   }
+  
 ]
 
 const Area1Blog = () => {

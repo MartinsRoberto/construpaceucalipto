@@ -43,6 +43,9 @@ const Area1Products = () => {
               <h3 className=''>{product.name}</h3>
               <p className='mb-5'>{product.description}</p>
             </Col>
+            <Col lg={12}>
+              <hr />
+            </Col>
           </Row>
         ))}
       </Container>
