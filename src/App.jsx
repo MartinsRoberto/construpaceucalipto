@@ -2,7 +2,7 @@ import { Outlet, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import Footer from "./components/Footer/footer";
+import Footer from "./components/Footer/Footer";
 import WhatsApp from "./components/WhatsApp/WhatsApp";
 import Header from "./components/Header/Header";
 import './App.css';

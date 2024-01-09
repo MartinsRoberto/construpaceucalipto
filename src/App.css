@@ -160,21 +160,7 @@ li {
 
 
 .waves{
-  transform: scaleY(0.5);
-  background-color: rgba(255, 0, 0, 0);
-  margin-bottom: -50px;
+  overflow: hidden;
+  height: 200px;
 }
 
-
-@media (max-width: 991px) {
-  .waves{
-    transform: scaleY(0.7);
-    margin-bottom: -20px;
-  }
-}
-
-@media (min-width: 1400px) {
-  .waves{
-    margin-bottom: -70px;
-  }
-}
