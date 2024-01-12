@@ -34,9 +34,6 @@ const Footer = () => {
                 <li className="mb-2">
                   <a href="https://www.instagram.com/construpaceucalipto/" className='text-green fw-semibold nav-link'><AiOutlineInstagram />Construpaceucalipto</a>
                 </li>
-                <li className="mb-2">
-                  <a href="https://www.instagram.com/formaodeouro/" className='text-green fw-semibold nav-link'><AiOutlineInstagram />Formaodeouro</a>
-                </li>
               </ListGroup>
             </Col>
           </Row>
