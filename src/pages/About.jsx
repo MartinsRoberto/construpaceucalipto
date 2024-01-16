@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div id='about'>
       <Area1About />
-      <div className='waves'>
+      <div className='waves z-10'>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"

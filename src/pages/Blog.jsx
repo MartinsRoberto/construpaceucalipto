@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <div id='blod'>
       <Area1Blog />
-      <div className='waves'>
+      <div className='waves z-0 '>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"

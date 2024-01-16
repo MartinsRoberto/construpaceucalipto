@@ -10,7 +10,7 @@ const WhatsApp = () => {
   }
 
   return (
-    <div id='wpp' className='pulse' onClick={handleWhatsAppClick}>
+    <div id='wpp' className='pulse z-3 ' onClick={handleWhatsAppClick}>
       <BsWhatsapp />
     </div>
   )
