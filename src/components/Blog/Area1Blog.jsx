@@ -5,6 +5,7 @@ import { useParams } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { FaArrowLeft } from "react-icons/fa";
 import eucalipto from '/images/produtos/eucalipto.png';
+import deck from '/images/pinus/02.jpg'
 
 
 const posts = [
@@ -44,7 +45,7 @@ const posts = [
 
   {
     id: "2",
-    img: eucalipto,
+    img: deck,
     title: "Estratégias de Tratamento e Vantagens - Decidindo com Sabedoria para o seu Deck",
     description: "Ao explorar opções para decks, o tratamento da madeira desempenha um papel essencial na durabilidade e longevidade. Neste contexto, vamos aprofundar as vantagens específicas do Pinus e do Eucalipto tratados, destacando também as opções mais acessíveis para quem busca um investimento consciente.",
     texts: [
