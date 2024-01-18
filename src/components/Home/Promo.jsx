@@ -21,7 +21,13 @@ const Promo = () => {
   }, [])
   return (
     <div>
-      <img src={firstSlide} alt="Primeiro slide" className='w-100' />
+      <div class="row justify-content-center align-items-end ">
+        <button type="button" class="btn btn-success position-absolute col-auto my-sm-5 my-3 shadow rounded-5  ">
+          <p class="h6 my-1 mx-2 ">Faça um orçamento</p>
+        </button>
+        <img src={firstSlide} alt="Primeiro slide" className='w-100' />
+
+      </div>
     </div>
   )
 }
