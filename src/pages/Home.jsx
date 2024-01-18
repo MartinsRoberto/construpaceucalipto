@@ -51,11 +51,11 @@ const Home = () => {
 
   return (
     <div id="home">
-      <Promo/>
-      <Area1 />
       <Carroussel />
+      <Area1 />
+      <Promo />
       <Area2 />
-      <div className='waves' style={{backgroundColor: "#00883B"}}>
+      <div className='waves' style={{ backgroundColor: "#00883B" }}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -70,7 +70,7 @@ const Home = () => {
           preserveAspectRatio="xMidYMid"
           viewBox="0 0 1920 200"
         >
-          <g transform="translate(960,100) scale(1,-1) translate(-960,-100)"> 
+          <g transform="translate(960,100) scale(1,-1) translate(-960,-100)">
             <linearGradient id="lg-0.9724606052957976" x1="0" x2="1" y1="0" y2="0">
               <stop stopColor="#000000" offset="0"></stop>
               <stop stopColor="#000000" offset="1"></stop>

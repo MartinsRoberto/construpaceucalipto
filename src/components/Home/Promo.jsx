@@ -20,14 +20,13 @@ const Promo = () => {
     }
   }, [])
   return (
-    <div>
-      <div class="row justify-content-center align-items-end ">
-        <button type="button" class="btn btn-success position-absolute col-auto my-sm-5 my-3 shadow rounded-5  ">
-          <p class="h6 my-1 mx-2 ">Faça um orçamento</p>
+    <div className="position-relative">
+      <div className="position-absolute bottom-0 start-50 translate-middle-x">
+        <button type="button" className="btn btn-success shadow rounded-5 mb-4" style={{width: "200px"}}>
+          <p className="h6 my-1 mx-2 ">Faça um orçamento</p>
         </button>
-        <img src={firstSlide} alt="Primeiro slide" className='w-100' />
-
       </div>
+      <img src={firstSlide} alt="Primeiro slide" className='w-100' style={{minHeight: "250px"}}/>
     </div>
   )
 }
