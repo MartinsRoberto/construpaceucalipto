@@ -31,7 +31,7 @@ const Carroussel = () => {
       setSecondSlide(img02lg)
     }
   }, [])
-  
+
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex) => {
@@ -40,14 +40,15 @@ const Carroussel = () => {
 
   return (
     <section>
-      <Carousel activeIndex={index} onSelect={handleSelect}>
-        <Carousel.Item>
-          <img src={firstSlide} alt="Primeiro slide" className='w-100' />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img src={secondSlide} alt="Primeiro slide" className='w-100' />
-        </Carousel.Item>
-      </Carousel>
+        <Carousel activeIndex={index} onSelect={handleSelect}>
+          <Carousel.Item>
+            <img src={firstSlide} alt="Primeiro slide" className='w-100' />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src={secondSlide} alt="Primeiro slide" className='w-100' />
+          </Carousel.Item>
+        </Carousel>
+
     </section>
   )
 }

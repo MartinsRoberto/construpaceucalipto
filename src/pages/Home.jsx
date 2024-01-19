@@ -53,7 +53,6 @@ const Home = () => {
     <div id="home">
       <Carroussel />
       <Area1 />
-      <Promo />
       <Area2 />
       <div className='waves' style={{ backgroundColor: "#00883B" }}>
         <svg
