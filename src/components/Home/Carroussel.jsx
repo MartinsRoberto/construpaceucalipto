@@ -40,15 +40,14 @@ const Carroussel = () => {
 
   return (
     <section>
-        <Carousel activeIndex={index} onSelect={handleSelect}>
-          <Carousel.Item>
-            <img src={firstSlide} alt="Primeiro slide" className='w-100' />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src={secondSlide} alt="Primeiro slide" className='w-100' />
-          </Carousel.Item>
-        </Carousel>
-
+      <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel.Item>
+          <img src={firstSlide} alt="Primeiro slide" className='w-100' />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={secondSlide} alt="Primeiro slide" className='w-100' />
+        </Carousel.Item>
+      </Carousel>
     </section>
   )
 }
