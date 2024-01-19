@@ -39,7 +39,7 @@ const Carroussel = () => {
   }
 
   return (
-    <section>
+    <section className='position-relative'>
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img src={firstSlide} alt="Primeiro slide" className='w-100' />
@@ -48,6 +48,7 @@ const Carroussel = () => {
           <img src={secondSlide} alt="Primeiro slide" className='w-100' />
         </Carousel.Item>
       </Carousel>
+      <button className='btn btn-success position-absolute bottom-0 start-50 translate-middle-x shadow mb-1 mb-sm-2 mb-md-5' style={{zIndex: "50"}}>teste</button>
     </section>
   )
 }
