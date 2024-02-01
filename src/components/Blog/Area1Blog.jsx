@@ -9,7 +9,7 @@ import deck from '/images/pinus/02.jpg'
 
 
 const posts = [
-  
+
 
   {
     id: "1",
@@ -35,12 +35,12 @@ const posts = [
       "<h6 >Versatilidade em Aplicações</h6>",
 
       "<p class='mb-4'>O eucalipto tratado com CCA, além de sua resistência notável, destaca-se por sua versatilidade. Desde decks e cercas até estruturas mais elaboradas, como pergolados e mobiliário de exterior, a madeira tratada oferece possibilidades infinitas para projetos que exigem durabilidade aliada à estética.</p>",
-      
+
       "<p class='mb-4'>Em conclusão, o tratamento em autoclave com CCA transforma o eucalipto em uma solução de construção robusta, resistente e durável. Ao investir em estruturas construídas com esse material, você não está apenas escolhendo qualidade, mas também contribuindo para a sustentabilidade e longevidade das construções. Descubra o potencial transformador do eucalipto tratado e construa com confiança para o futuro.</p>",
 
     ]
 
-    
+
   },
 
   {
@@ -50,7 +50,7 @@ const posts = [
     description: "Ao explorar opções para decks, o tratamento da madeira desempenha um papel essencial na durabilidade e longevidade. Neste contexto, vamos aprofundar as vantagens específicas do Pinus e do Eucalipto tratados, destacando também as opções mais acessíveis para quem busca um investimento consciente.",
     texts: [
 
-      
+
       "<h6>1. Pinus Tratado: Durabilidade e Valor Acessível em Sintonia</h6>",
 
       "<p class='mb-4'>O Pinus tratado é uma escolha inteligente para aqueles que buscam uma solução duradoura sem comprometer o bolso. Graças ao tratamento específico, o Pinus torna-se resistente a fungos, bactérias e cupins, garantindo uma vida útil prolongada. Sua acessibilidade em termos de preço torna-o uma opção atraente para quem deseja um deck durável sem exceder o orçamento disponível.</p>",
@@ -60,13 +60,13 @@ const posts = [
       "<p class='mb-4'>O Eucalipto tratado destaca-se por sua versatilidade e preço acessível, tornando-o uma escolha popular para decks. Com processos de tratamento que reforçam sua resistência, o Eucalipto oferece durabilidade contra elementos como fungos e insetos. Sua rápida taxa de crescimento contribui para uma oferta constante, resultando em preços acessíveis. Ideal para quem busca um deck durável, esteticamente agradável e amigável ao orçamento.</p>",
 
       "<h6 >3. Cumaru: Exoticidade com Durabilidade Reforçada</h6>",
- 
+
       "<p class='mb-4'>Para aqueles que desejam investir um pouco mais em um deck exótico, o Cumaru tratado é uma escolha fascinante. Sua durabilidade é amplificada pelo tratamento, garantindo resistência adicional contra agentes deteriorantes. Embora o Cumaru seja mais caro em comparação com Pinus e Eucalipto, seu apelo estético e vida útil prolongada justificam o investimento.</p>",
 
       "<h6>4. Ipê: A Exclusividade Refletida em Durabilidade e Estilo </h6>",
 
       "<p class='mb-4'>O Ipê, embora represente um investimento mais significativo, oferece uma combinação incomparável de exclusividade, durabilidade e estilo. Tratado para resistir a condições adversas, o Ipê destaca-se como uma opção premium. Se o orçamento permite, optar pelo Ipê pode proporcionar um deck que não apenas resiste ao teste do tempo, mas também se destaca pela sua elegância.</p>",
-      
+
       "<h6>Conclusão: Escolhas Conscientes para Decks Duráveis e Econômicos</h6>",
 
       "<p class='mb-4'>Ao considerar opções para decks tratados, o Pinus e o Eucalipto emergem como líderes, oferecendo durabilidade e vantagens econômicas. O tratamento específico dessas madeiras não só reforça sua resistência, mas também torna-as acessíveis para diversos orçamentos. Seja pela economia do Pinus ou pela versatilidade do Eucalipto, a escolha consciente resultará em um deck que une durabilidade, estética e valor acessível.</p>",
@@ -75,9 +75,9 @@ const posts = [
 
     ]
 
-    
+
   }
-  
+
 ]
 
 const Area1Blog = () => {
@@ -111,6 +111,9 @@ const Area1Blog = () => {
                   <Button variant="primary" className='mb-5 btn-secondary d-flex flex justify-content-center align-items-center' onClick={() => navigate(`/blog`)}>
                     <FaArrowLeft />
                   </Button>
+
+                    
+
                   <h2 className='mb-5'>{filteredPost.title}</h2>
                   <img src={filteredPost.img} alt="" className='mb-4 img-fluid rounded' />
                   <h4 className='my-3 mb-5'>{filteredPost.description}</h4>

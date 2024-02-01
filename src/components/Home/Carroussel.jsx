@@ -1,15 +1,15 @@
 import { useEffect, useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
-import img01lg from '/images/banner carrosel/01 (desktop grande).png'
-import img01md from '/images/banner carrosel/01 (desktop).png'
-import img01 from '/images/banner carrosel/01 (mobile).png'
-import img01sm from '/images/banner carrosel/01 (tablet paisagem).png'
+import img01lg from '/images/banner carrosel/bannerEuc.png'
+import img01md from '/images/banner carrosel/bannerEuc.png'
+import img01 from '/images/banner carrosel/bannerEucMobile.png'
+import img01sm from '/images/banner carrosel/bannerEuc.png'
 
-import img02lg from '/images/banner carrosel/02 (desktop grande).png'
-import img02md from '/images/banner carrosel/02 (desktop).png'
-import img02 from '/images/banner carrosel/02 (mobile).png'
-import img02sm from '/images/banner carrosel/02 (tablet paisagem).png'
+import img02lg from '/images/banner carrosel/bannerPinus.png'
+import img02md from '/images/banner carrosel/bannerPinus.png'
+import img02 from '/images/banner carrosel/bannerPinusMobile.png'
+import img02sm from '/images/banner carrosel/bannerPinus.png'
 
 const Carroussel = () => {
 
@@ -39,7 +39,7 @@ const Carroussel = () => {
   }
 
   return (
-    <section>
+    <section className='position-relative'>
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img src={firstSlide} alt="Primeiro slide" className='w-100' />
@@ -48,6 +48,9 @@ const Carroussel = () => {
           <img src={secondSlide} alt="Primeiro slide" className='w-100' />
         </Carousel.Item>
       </Carousel>
+      <div class="position-absolute bottom-0 start-50 translate-middle-x mb-1 mb-sm-2 mb-md-3 mb-lg-5" style={{zIndex: "50"}}>
+        <button className="btn btn-success mb-2 rounded-5 shadow-sm ">Faça um orçamento</button>
+      </div>
     </section>
   )
 }

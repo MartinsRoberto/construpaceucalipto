@@ -31,20 +31,20 @@ const Area1Gallery = () => {
     <section className="py-5">
       <Container>
         <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
-          <Tab eventKey="home" title="Eucalipto Tratado">
+          <Tab eventKey="home" title="Pinus Tratado">
             <Row>
               {imgsPinus && imgsPinus.map((img, index) => (
                 <Col sm={6} md={4} lg={3} key={index} className="p-1" onClick={() => handleModal(img)}>
-                  <img src={img} className="img-fluid img-gallery rounded" />
+                  <img src={img} className="img-fluid px-5 px-sm-0 img-gallery rounded" />
                 </Col>
               ))}
             </Row>
           </Tab>
-          <Tab eventKey="profile" title="Pinus Tratado">
+          <Tab eventKey="profile" title="Eucalipto Tratado">
             <Row>
               {imgsEucalipto && imgsEucalipto.map((img, index) => (
                 <Col sm={6} md={4} lg={3} key={index} className="p-1" onClick={() => handleModal(img)}>
-                  <img src={img} className="img-fluid img-gallery rounded" />
+                  <img src={img} className="img-fluid px-5 px-sm-0  img-gallery rounded" />
                 </Col>
               ))}
             </Row>
