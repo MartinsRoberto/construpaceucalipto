@@ -49,7 +49,9 @@ const Carroussel = () => {
         </Carousel.Item>
       </Carousel>
       <div class="position-absolute bottom-0 start-50 translate-middle-x mb-1 mb-sm-2 mb-md-3 mb-lg-5" style={{zIndex: "50"}}>
+        <a href="https://api.whatsapp.com/send?phone=5511911052709&text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento.">
         <button className="btn btn-success mb-2 rounded-5 shadow-sm ">Faça um orçamento</button>
+        </a>
       </div>
     </section>
   )

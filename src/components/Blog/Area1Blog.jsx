@@ -5,8 +5,9 @@ import { useParams } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { FaArrowLeft } from "react-icons/fa";
 import eucalipto from '/images/produtos/eucalipto.png';
-import deck from '/images/pinus/02.jpg'
-
+import deck from '/images/pinus/02.jpg';
+import tiposEucalipto from '/images/work/81.png';
+import tratamento from '/images/blog/tratamento.png';
 
 const posts = [
 
@@ -76,6 +77,67 @@ const posts = [
     ]
 
 
+  },
+
+  {
+    id: "3",
+    img: tiposEucalipto,
+    title: "Uma questão frequente entre nossos clientes e leitores diz respeito às diversas espécies de eucalipto tratado, e suas respectivas vantagens e desvantagens na utilização.",
+    description: "Com mais de 800 espécies apenas no Brasil, muitas delas pouco conhecidas do público em geral, o eucalipto desempenha papéis variados, desde a produção de carvão e celulose até o uso na construção, cercamento e paisagismo. Neste artigo, vamos nos concentrar nas principais espécies utilizadas no tratamento em autoclave, oferecendo insights práticos baseados em nossa vasta experiência com o manejo do eucalipto tratado.",
+    texts: [
+
+
+      "<h6>1. Eucalipto Citriodora:</h6>",
+
+      "<p class='mb-4'>Esta espécie se destaca pela excelente resistência mecânica entre as principais utilizadas no tratamento em autoclave. Suas toras são mais densas e suas fibras mais resistentes, o que reduz significativamente o risco de rachaduras. É a escolha preferida para produção de madeira serrada, como tábuas e vigas, devido à sua resistência a empenamento e rachaduras. No entanto, sua simetria pode deixar um pouco a desejar, apresentando variações e irregularidades nas toras brutas, especialmente nas mais finas.</p>",
+
+      "<h6>2. Eucalipto Cloeziana:</h6>",
+
+      "<p class='mb-4'>Esta espécie se aproxima do citriodora em resistência mecânica, embora não tenha a mesma densidade. No entanto, apresenta uniformidade excepcional, com pouca diferença entre a base e o topo das peças, baixo índice de rachaduras e uma coloração mais clara. Por essas características, tem se tornado popular entre arquitetos e paisagistas para trabalhos que exigem um acabamento de alta qualidade.</p>",
+
+      "<h6 >3. Eucalipto Saligna:</h6>",
+
+      "<p class='mb-4'>O saligna é uma das espécies mais comuns no tratamento em autoclave, especialmente nas regiões sul e sudeste do Brasil. Embora seja amplamente utilizada devido à sua abundância, possui densidade inferior, resultando em resistência mecânica mais baixa e maior suscetibilidade a rachaduras. Por isso, é menos empregada em estruturas, sendo preferida para projetos de menor exigência, como cercas e galpões menores.</p>",
+
+      "<h6>4. Eucalipto Grandis:</h6>",
+
+      "<p class='mb-4'>Esta espécie se situa entre o saligna e o cloeziana em termos de resistência e rachaduras. Com peças uniformes, mas com um pouco mais de nós, é amplamente utilizada na região sul do Brasil, onde é mais comum. Em outras regiões, sua presença em usinas de tratamento é menos frequente.</p>",
+
+      "<h6>Ao considerar a escolha da espécie de eucalipto tratado para seu projeto, é essencial ponderar não apenas as características individuais de cada espécie, mas também as exigências específicas do projeto em questão.</h6>",
+
+
+    ]
+
+
+  },
+  {
+    id: "4",
+    img: tratamento,
+    title: "Eucalipto Tratado: Sustentabilidade e Inovação na Construção Moderna",
+    description: "Explore como o eucalipto tratado com CCA se destaca como uma escolha sustentável e inovadora na construção. Descubra as etapas do tratamento e os benefícios ambientais e estruturais que ele proporciona.",
+    texts: [
+
+      "<p class='mb-4'>O eucalipto tratado com CCA (Cobre, Cromo e Arsênio) surge como uma solução inovadora e sustentável para a construção civil. Este método de tratamento aumenta significativamente a durabilidade e a resistência da madeira, tornando-a uma escolha preferida para diversas aplicações externas.</p>",
+
+      "<h6>O Processo de Tratamento: Passo a Passo</h6>",
+
+      "<p class='mb-4'>O tratamento do eucalipto começa com a seleção de madeiras de alta qualidade. Essas peças são então submetidas a um processo de autoclave, onde são impregnadas com a solução de CCA sob alta pressão. Esse procedimento garante que os agentes preservativos penetrem profundamente nas fibras da madeira, proporcionando uma proteção duradoura.</p>",
+
+      "<p class='mb-4'>Cada componente do CCA desempenha um papel crucial. O Cobre atua como fungicida, prevenindo o crescimento de fungos e bactérias. O Cromo funciona como fixador, assegurando que os agentes preservativos permaneçam na madeira, enquanto o Arsênio oferece proteção contra insetos, prevenindo infestações que poderiam comprometer a estrutura.</p>",
+
+      "<h6>Vantagens do Eucalipto Tratado</h6>",
+
+      "<p class='mb-4'>O eucalipto tratado oferece uma série de benefícios, sendo a durabilidade e a resistência os principais. A madeira tratada é capaz de resistir a condições climáticas adversas e ataques biológicos, prolongando a vida útil das estruturas e reduzindo a necessidade de manutenção frequente.</p>",
+
+      "<p class='mb-4'>Além disso, o uso de madeira tratada é uma escolha sustentável. A longevidade das estruturas significa menos substituição de materiais ao longo do tempo, contribuindo para a redução do desperdício e promovendo uma construção mais ecológica.</p>",
+
+      "<h6>Aplicações Versáteis</h6>",
+
+      "<p class='mb-4'>A versatilidade do eucalipto tratado permite sua utilização em uma ampla gama de projetos. De decks e cercas a estruturas mais complexas como pergolados e móveis de jardim, a madeira tratada combina funcionalidade e estética, oferecendo soluções adaptáveis para diferentes necessidades de construção.</p>",
+
+      "<p class='mb-4'>Concluindo, o tratamento do eucalipto com CCA representa uma fusão de inovação e sustentabilidade. Escolher madeira tratada para suas construções é investir em qualidade e durabilidade, ao mesmo tempo em que se contribui para um futuro mais sustentável. Descubra as vantagens do eucalipto tratado e transforme seus projetos com essa solução robusta e ecologicamente responsável.</p>",
+
+    ]
   }
 
 ]
@@ -112,7 +174,7 @@ const Area1Blog = () => {
                     <FaArrowLeft />
                   </Button>
 
-                    
+
 
                   <h2 className='mb-5'>{filteredPost.title}</h2>
                   <img src={filteredPost.img} alt="" className='mb-4 img-fluid rounded' />
@@ -120,7 +182,7 @@ const Area1Blog = () => {
                   {filteredPost.texts.map((item, index) => (
                     <div key={index} dangerouslySetInnerHTML={{ __html: item }} />
                   ))}
-                  <Button variant="primary" className='mb-5 btn-secondary d-flex flex justify-content-center align-items-center' onClick={() => navigate(`/blog`)}>
+                  <Button variant="primary" className='mb-5 mt-5 btn-secondary d-flex flex justify-content-center align-items-center' onClick={() => navigate(`/blog`)}>
                     <FaArrowLeft />
                   </Button>
                 </Col>
