@@ -11,6 +11,7 @@ import Tables from './pages/Tables.jsx';
 import Contact from './pages/Contact.jsx';
 import About from './pages/About.jsx';
 import Blog from './pages/Blog.jsx';
+import Lp from './pages/Lp.jsx';
 import Area1Blog from './components/Blog/Area1Blog.jsx';
 import AreaPostBlog from './components/Blog/AreaPostBlog.jsx';
 
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
       {
         path: "/blog",
         element: <Blog />
+      },
+      {
+        path:"/lp",
+        element: <Lp />
       }
     ],
   },

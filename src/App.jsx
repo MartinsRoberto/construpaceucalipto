@@ -39,7 +39,7 @@ const App = () => {
       )}
 
       <Header />
-      <main className="m-start bg-green-light">
+      <main id="content" className="m-start bg-green-light">
         <Outlet />
       </main>
       <Footer />
