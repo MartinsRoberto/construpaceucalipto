@@ -52,12 +52,17 @@ const router = createBrowserRouter([
         path: "/blog",
         element: <Blog />
       },
-      {
-        path:"/lp",
-        element: <Lp />
-      }
+      // {
+      //   path:"/lp",
+      //   element: <Lp />
+      // }
     ],
   },
+  {
+    path:"/lp",
+    element: <Lp />
+  }
+  
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

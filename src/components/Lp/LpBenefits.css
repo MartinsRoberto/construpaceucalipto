@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#LpBenefits{
+    font-family: "Poppins", sans-serif !important;
+}
+
+#LpBenefits.bg-dark-green {
+    background-color: rgb(28, 49, 10);
+    /* cor verde escura */
+}
+
+#LpBenefits .problemas-box {
+    background-color: #edd4a9;
+    /* cor de fundo semelhante à imagem */
+    border-radius: 8px 8px 0px 0px;
+}
+
+#LpBenefits .solucoes-box {
+    background-color: #b5e6b3;
+    /* cor de fundo verde-claro */
+    border-radius: 0px 0px 8px 8px;
+}
+
+#LpBenefits button {
+    background: linear-gradient(#1ebc15, #057803);
+    border: none;
+}
+
+#LpBenefits .solucoes-box li {
+    color: #142604;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+#LpBenefits .problemas-box li {
+    color: #683c10;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+#LpBenefits p {
+    font-size: 14px;
+}
+
+#LpBenefits .last-text{
+    margin-bottom: 0px !important;
+}
+
+@media (min-width: 768px){
+
+    #LpBenefits .solucoes-box li {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    
+    #LpBenefits .problemas-box li {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    #LpBenefits p {
+        font-size: 18px;
+    }
+
+    #LpBenefits h2 {
+        font-size: 35px;
+    }
+}
+
+/* 
+        #94db81 fundo verde
+        #142604 color text 
+        #edd4a9 fundo beje
+        #683c10 texto marrom
+        #r28 g49 b10 funod verde
+  */

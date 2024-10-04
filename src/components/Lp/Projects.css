@@ -1,0 +1,33 @@
+.box {
+    display: grid;
+    grid-template-areas: 
+        "a c d"
+        "b c e";
+    grid-template-columns: 25% 50% 25%; /* Ajuste as larguras como desejar */
+}
+
+.item-a {
+    grid-area: a;
+    background-color: lightblue;
+}
+
+.item-b {
+    grid-area: b;
+    background-color: lightcoral;
+}
+
+.item-c {
+    grid-area: c;
+    background-color: lightgreen;
+}
+
+.item-d {
+    grid-area: d;
+    background-color: lightgoldenrodyellow;
+}
+
+.item-e {
+    grid-area: e;
+    background-color: lightpink;
+}
+
