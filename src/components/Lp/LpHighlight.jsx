@@ -3,22 +3,22 @@ import './LpHighlight.css';
 
 const highlights = [
   {
-    imgSrc: "/src/components/Lp/imgs/terapia.png",
+    imgSrc: "/images/LP/terapia.png",
     title: "Tratamento de Madeira",
     description: "Cuidamos de todo o processo de tratamento da madeira, garantindo um produto de alta qualidade.",
   },
   {
-    imgSrc: "/src/components/Lp/imgs/atendimento-ao-cliente.png",
+    imgSrc: "/images/LP/atendimento-ao-cliente.png",
     title: "Suporte Técnico",
     description: "Consultores prontos para fornecer orientações e assistência personalizadas para sua compra.",
   },
   {
-    imgSrc: "/src/components/Lp/imgs/caminhao.png",
+    imgSrc: "/images/LP/caminhao.png",
     title: "Envio e Custos",
     description: "Oferecemos soluções acessíveis e eficientes para atender às suas necessidades.",
   },
   {
-    imgSrc: "/src/components/Lp/imgs/certificado-de-garantia.png",
+    imgSrc: "/images/LP/certificado-de-garantia.png",
     title: "Madeira Certificada",
     description: "Escolha sustentável e de qualidade para seus projetos.",
   },

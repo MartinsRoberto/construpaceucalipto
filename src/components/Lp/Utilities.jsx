@@ -6,37 +6,37 @@ const utilityData = [
         title: 'Telhados e Estruturas',
         description: 'Descrição 1',
         usage: 'Utilizados para coberturas e suportes estruturais, proporcionando durabilidade e resistência.',
-        imgSrc: "/src/components/Lp/imgs/Telhado.png",
+        imgSrc: "/images/LP/Telhado.png",
     },
     {
         title: 'Pergolados',
         description: 'Descrição 2',
         usage: 'Ideais para criar áreas sombreadas em jardins e pátios, trazendo estilo e funcionalidade.',
-        imgSrc: "/src/components/Lp/imgs/Pergolado.png",
+        imgSrc: "/images/LP/Pergolado.png",
     },
     {
         title: 'Quiosques',
         description: 'Descrição 3',
         usage: 'Estruturas abertas que oferecem um espaço para relaxamento e socialização ao ar livre.',
-        imgSrc: "/src/components/Lp/imgs/Quiosque.png",
+        imgSrc: "/images/LP/Quiosque.png",
     },
     {
         title: 'Decks e Mezaninos',
         description: 'Descrição 4',
         usage: 'Superfícies elevadas que expandem o espaço útil em ambientes externos e internos.',
-        imgSrc: "/src/components/Lp/imgs/Deck.png",
+        imgSrc: "/images/LP/Deck.png",
     },
     {
         title: 'Cercas',
         description: 'Descrição 5',
         usage: 'Usadas para delimitar áreas, garantir privacidade e aumentar a segurança.',
-        imgSrc: "/src/components/Lp/imgs/Cerca.png",
+        imgSrc: "/images/LP/Cerca.png",
     },
     {
         title: 'Outros',
         description: 'Descrição 6',
         usage: 'Diversas outras aplicações do eucalipto e pinus tratado em projetos de construção.',
-        imgSrc: "/src/components/Lp/imgs/Outros.png",
+        imgSrc: "/images/LP/Outros.png",
     },
 ];
 
