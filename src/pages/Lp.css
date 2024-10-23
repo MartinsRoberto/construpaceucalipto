@@ -1,0 +1,28 @@
+.bg-dark-green {
+    background-color: #1C310A;
+}
+
+.text-dark-green {
+    color: #1C310A;
+}
+
+.bg-brown {
+    background-color: #683c10;
+}
+
+.text-brown {
+    color: #683c10;
+}
+
+.text-light-brown {
+    background-color: #edd4a9;
+}
+
+.bg-light-brown {
+    background-color: #edd4a9;
+}
+
+.btn-lp{
+    background: linear-gradient(#1ebc15, #057803);
+    border: none;
+}

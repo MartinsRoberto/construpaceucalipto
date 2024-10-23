@@ -5,7 +5,7 @@
 }
 
 #LpBenefits.bg-dark-green {
-    background-color: rgb(28, 49, 10);
+    background-color: #1C310A;
     /* cor verde escura */
 }
 
@@ -21,13 +21,7 @@
     border-radius: 0px 0px 8px 8px;
 }
 
-#LpBenefits button {
-    background: linear-gradient(#1ebc15, #057803);
-    border: none;
-}
-
 #LpBenefits .solucoes-box li {
-    color: #142604;
     margin-bottom: 15px;
     font-size: 14px;
 }
@@ -44,6 +38,10 @@
 
 #LpBenefits .last-text{
     margin-bottom: 0px !important;
+}
+
+#LpBenefits .benefits-container{
+    max-width: 500px;
 }
 
 @media (min-width: 768px){
@@ -68,6 +66,7 @@
 }
 
 /* 
+#1C310A verde escuro
         #94db81 fundo verde
         #142604 color text 
         #edd4a9 fundo beje

@@ -52,10 +52,6 @@ const router = createBrowserRouter([
         path: "/blog",
         element: <Blog />
       },
-      // {
-      //   path:"/lp",
-      //   element: <Lp />
-      // }
     ],
   },
   {

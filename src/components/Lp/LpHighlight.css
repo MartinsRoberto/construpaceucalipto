@@ -7,32 +7,3 @@
     font-family: "Poppins", sans-serif !important;
     background-image: url('https://d9hhrg4mnvzow.cloudfront.net/lp.construpaceucalipto.com.br/2f3fe467-sem-titulo-1-prancheta-1_1000000000000000000028.png');
 }
-
-#lpHighlight .highlight{
-    background: transparent !important;
-    border: red !important; 
-}
-
-#lpHighlight .icon {
-    margin-bottom: 50px !important;
-}
-
-@media (max-width: 768px) {
-    #lpHighlight .highlight-title {
-        font-size: 1.1rem;
-    }
-    
-    #lpHighlight p {
-        font-size: 0.8rem;
-        line-height: 15px;
-    }
-
-    #lpHighlight .icon {
-        width: 70px;
-    }
-
-    #lpHighlight .last-icon{
-        margin-bottom: 0px !important;
-    }
-
-}

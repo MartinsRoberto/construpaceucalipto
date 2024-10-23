@@ -1,77 +1,49 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import "./LpHighlight.css";
+import './LpHighlight.css';
 
-function LpHighlight() {
+const highlights = [
+  {
+    imgSrc: "/src/components/Lp/imgs/terapia.png",
+    title: "Tratamento de Madeira",
+    description: "Cuidamos de todo o processo de tratamento da madeira, garantindo um produto de alta qualidade.",
+  },
+  {
+    imgSrc: "/src/components/Lp/imgs/atendimento-ao-cliente.png",
+    title: "Suporte Técnico",
+    description: "Consultores prontos para fornecer orientações e assistência personalizadas para sua compra.",
+  },
+  {
+    imgSrc: "/src/components/Lp/imgs/caminhao.png",
+    title: "Envio e Custos",
+    description: "Oferecemos soluções acessíveis e eficientes para atender às suas necessidades.",
+  },
+  {
+    imgSrc: "/src/components/Lp/imgs/certificado-de-garantia.png",
+    title: "Madeira Certificada",
+    description: "Escolha sustentável e de qualidade para seus projetos.",
+  },
+];
+
+const LpHighlight = () => {
   return (
-    <div className='py-5 ' id="lpHighlight">
-      <Container className='text-sm-center py-sm-5 px-4'>
-        <Row className="">
-          <Col md={6} lg={3} className="mb-2 mb-lg-0">
-            <div className="highlight-box">
-              <div className='row'>
-                <Col className="d-flex justify-content-center align-items-center" xs={3} sm={12}>
-                  <img className="icon mb-2 mb-lg-0" src="https://d9hhrg4mnvzow.cloudfront.net/lp.construpaceucalipto.com.br/4ecd9219-sem-titulo-1-04_102s02s000000000000028.png" alt="Tratamento de Madeira" />
-                </Col>
-                <Col xs={9} sm={12}>
-                  <h4 className="highlight-title">Tratamento de Madeira</h4>
-                  <p>
-                    Cuidamos de todo o processo de tratamento da madeira, garantindo um produto de alta qualidade.
-                  </p>
-                </Col>
+    <div className='py-5' id="lpHighlight">
+      <div className='container text-center py-1'>
+        <div className='row'>
+          {highlights.map((highlight, index) => (
+            <div className="col-lg-6 highlight-box my-4" key={index}>
+              <div className="d-flex align-items-start">
+                <img className="icon me-3" src={highlight.imgSrc} alt={highlight.title} style={{ maxWidth: '80px', maxHeight: '80px' }} />
+                <div className="text-start">
+                  <h5 className="text-brown">{highlight.title}</h5>
+                  <p>{highlight.description}</p>
+                </div>
               </div>
             </div>
-          </Col>
-          <Col md={6} lg={3} className="mb-2 mb-lg-0">
-            <div className="highlight-box">
-              <div className='row'>
-                <Col className="d-flex justify-content-center align-items-center" xs={3} sm={12}>
-                  <img className="icon mb-2 mb-lg-0" src="https://d9hhrg4mnvzow.cloudfront.net/lp.construpaceucalipto.com.br/66f305fb-sem-titulo-1-05_102s02s000000000000028.png" alt="Tratamento de Madeira" />
-                </Col>
-                <Col xs={9} sm={12}>
-                  <h4 className="highlight-title">Suporte Técnico</h4>
-                  <p>
-                    Consultores prontos para fornecer orientações e assistência personalizadas para sua compra.
-                  </p>
-                </Col>
-              </div>
-            </div>
-          </Col>
-          <Col md={6} lg={3} className="mb-2 mb-lg-0">
-            <div className="highlight-box">
-              <div className='row'>
-                <Col className="d-flex justify-content-center align-items-center" xs={3} sm={12}>
-                  <img className="icon mb-2 mb-lg-0" src="https://d9hhrg4mnvzow.cloudfront.net/lp.construpaceucalipto.com.br/1e882d53-sem-titulo-1-02_102s02s000000000000028.png" alt="Tratamento de Madeira" />
-                </Col>
-                <Col xs={9} sm={12}>
-                  <h4 className="highlight-title">Envio e Custos</h4>
-                  <p>
-                    Oferecemos soluções acessíveis e eficientes para atender às suas necessidades.
-                  </p>
-                </Col>
-              </div>
-            </div>
-          </Col>
-          <Col md={6} lg={3} className="mb-2 mb-lg-0">
-            <div className="highlight-box">
-              <div className='row'>
-                
-                <Col className="d-flex justify-content-center align-items-center" xs={3} sm={12}>
-                  <img className="last-icon icon mb-2 mb-lg-0" src="https://d9hhrg4mnvzow.cloudfront.net/lp.construpaceucalipto.com.br/7bb6c144-sem-titulo-1-03_102s02s000000000000028.png" alt="Tratamento de Madeira" />
-                </Col>
-                <Col xs={9} sm={12}>
-                  <h4 className="highlight-title">Madeira Certificada</h4>
-                  <p>
-                    Escolha sustentável e de qualidade para seus projetos.
-                  </p>
-                </Col>
-              </div>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+          ))}
+        </div>
+      </div>
     </div>
   );
-}
+};
 
 export default LpHighlight;
