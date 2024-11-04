@@ -1,3 +1,11 @@
 #lp-testimonials img{
     border-radius: 10px;
 }
+
+#lp-testimonials button {
+    margin-top: 30px;
+    padding: 8px 24px;
+    font-size: 0.9rem; /* Reduzindo o texto do botão */
+    background: linear-gradient(#1ebc15, #057803);
+    border: none;
+}

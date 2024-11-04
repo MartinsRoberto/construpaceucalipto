@@ -2,6 +2,7 @@ import React from 'react';
 import "./LpBenefits.css";
 import { FaCheck } from "react-icons/fa";
 import { FaX } from "react-icons/fa6";
+import { Container, Button } from 'react-bootstrap';
 
 const LpBenefits = () => {
   return (
@@ -33,9 +34,12 @@ const LpBenefits = () => {
             </div>
           </div>
 
-          <button className="mt-4 rounded-pill btn btn-success btn-lg btn-lp">
-            Quero um Orçamento
-          </button>
+          <a className="mt-4" href="https://wa.me/5511943957572?text=Ol%C3%A1,%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20as%20madeiras%20que%20voc%C3%AAs%20t%C3%AAm%20dispon%C3%ADveis?">
+            <Button className='text-center rounded-pill text-white' variant="" size="lg">
+              Quero um Orçamento
+            </Button>
+          </a>
+
         </div>
       </div>
 

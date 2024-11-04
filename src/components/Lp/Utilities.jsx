@@ -59,9 +59,7 @@ const Utilities = () => {
                     ))}
                 </div>
                 <div className="text-center">
-                    <button className="mt-4 rounded-pill btn btn-success btn-lg btn-lp">
-                        Quero um Orçamento
-                    </button>
+                    
                 </div>
             </div>
         </section>
